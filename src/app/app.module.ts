@@ -9,7 +9,7 @@ import { LoginComponent } from './login/login.component';
 import { Routes, RouterModule} from '@angular/router';
 import { DetailComponent } from './detail/detail.component';
 const ROUTES: Routes =[
-  {path : '', component : HomeComponent},
+  {path : 'home', component : HomeComponent},
   {path : 'login', component : LoginComponent},
   {path : 'detail',component : DetailComponent},
   {path : 'detail/:id',component : DetailComponent}

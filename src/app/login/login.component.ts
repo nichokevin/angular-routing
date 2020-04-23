@@ -11,5 +11,10 @@ export class LoginComponent implements OnInit {
 
   ngOnInit() {
   }
+  t1;
+  t2;
+  i:number; j:number;
+  go(){
+  }
 
 }

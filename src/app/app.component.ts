@@ -13,7 +13,10 @@ export class AppComponent  {
     this.router.navigate(['/login']);
   }
   detail(){
-    this.router.navigate(['/detail',4]);
+    this.router.navigate(['/detail']);
+  }
+  home(){
+    this.router.navigate(['/home']);
   }
   
 }
